@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/nota_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_margin="16dp"
+        android:hint="@string/nome_nota1"
+        android:textColorHint="@color/leo_blue"
+        android:textColor="@color/leo_blue"
+        android:background="@color/leo_yellow"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/nota_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/nome_nota2"
+        android:gravity="center"
+        android:textColorHint="@color/leo_blue"
+        android:textColor="@color/leo_blue"
+        android:background="@color/leo_yellow"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:id="@+id/calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/leo_blue"
+        />
+
+    <Button
+        android:id="@+id/limpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/limpar"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/leo_red"
+        />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="36dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Domalde Tech © 2022. Todos os direitos reservados" />
+
+
+</LinearLayout>

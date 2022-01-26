@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sua Média</string>
+    <string name="nome_nota1">Nota 1</string>
+    <string name="nome_nota2">Nota 2</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar">LIMPAR NOTAS</string>
+
+</resources>
